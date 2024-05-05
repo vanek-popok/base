@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form method="post">
+    {% csrf_token %}
+<input type="text" name="title" placeholder="введите название">
+<input type="text" name="embed" placeholder="введите embed">
+<input type="text" name="first_name" placeholder="введите имя">
+<input type="text" name="last_name" placeholder="введите фамилию">
+<button type="sumbit">загрузить</button>
+    </form>
+</body>
+</html>
